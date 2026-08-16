@@ -8,18 +8,7 @@ Each chunk can contain unique anomalies that affect physics, block mechanics, en
 ## The Bolt Item
 
 The Bolt is a STALKER-inspired anomaly detector tool.
-
 - Crafting Recipe: 1 Iron Nugget yields 4 Bolts (shapeless crafting).
-- Usage: Right-click to throw a bolt forward.
-- Anomaly Detection:
-  - In gravity and lift zones: The bolt accelerates upward or floats.
-  - In vortex and tornado zones: The bolt swirls in a spiral toward the chunk center.
-  - In super trampoline zones: The bolt bounces high into the air.
-  - In horizontal wind zones: The bolt gets pushed sideways.
-  - In ice and fire zones: The bolt emits snowflake trails or flame sparks.
-  - In electric and explosive zones: The bolt emits electric sparks.
-  - On landing: The bolt scans the chunk and displays detected anomalies in chat. It can be picked back up.
-
 ---
 
 ## Configuration (config/anomalia.json)
@@ -40,21 +29,6 @@ The mod includes server-side configuration options:
   "allowBossWardenInOverworld": true
 }
 ```
-
-- enabled: Master toggle for all anomaly processing.
-- chunkAnomalyChance: Probability that a chunk contains anomalies (default 0.40 for 40% anomaly chunks, 60% clean chunks).
-- minAnomaliesPerChunk / maxAnomaliesPerChunk: Number of anomalies assigned per active chunk.
-- dailyRotation: When true, anomaly distributions shuffle every in-game day.
-- dailyRotationTicks: Duration of a day cycle (default 24000 ticks).
-
----
-
-## Commands
-
-- /anomalia check: Inspects the current chunk and prints active anomalies.
-- /anomalia debug: Toggles real-time actionbar anomaly status overlay.
-
----
 
 ## Anomaly Catalog
 
