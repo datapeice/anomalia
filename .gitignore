@@ -1,0 +1,26 @@
+# Gradle build and cache
+.gradle/
+build/
+out/
+
+# Fabric / Minecraft run directory (saves, logs, configs, mods)
+run/
+
+# IDE and editor files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS and system files
+.DS_Store
+Thumbs.db
+*.log
+
+# Backup folders
+src_backup/
+backup/
