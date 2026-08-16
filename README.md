@@ -1,6 +1,12 @@
-# Anomalia: Chunk Madness (Fabric 1.20.1)
+<div align="center">
+  <img src="src/main/resources/assets/anomalia/icon.png" width="128" height="128" alt="Anomalia Mod Icon" />
+  <h1>Anomalia: Chunk Madness</h1>
+  <p><b>Dynamic anomaly zones, physics twists, block reactions, and STALKER bolts in Minecraft Fabric 1.20.1</b></p>
+</div>
 
-Anomalia turns the Minecraft world into a dynamic landscape of unpredictable chunk anomaly zones.
+---
+
+"Anomalia" turns the Minecraft into chaos
 Each chunk can contain unique anomalies that affect physics, block mechanics, entity behaviors, and survival conditions. Anomalies rotate dynamically every in-game day based on world seeds and chunk coordinates.
 
 ---
@@ -29,7 +35,6 @@ The mod includes server-side configuration options:
   "allowBossWardenInOverworld": true
 }
 ```
-
 ## Anomaly Catalog
 
 ### 1. Physics and Movement
